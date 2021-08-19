@@ -1,0 +1,33 @@
+
+
+body{
+    background-color: purple;
+    font-size: 16px;
+}
+#amarelo{
+    background: yellow;
+}
+#vermelho {
+    background: red;
+}
+#marrom {
+    background: brown;
+}
+h1 { color: orange;
+    padding: 65px;
+    font-family: sans-serif;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: italic;
+    line-height: normal;
+    text-align:center;
+    text-decoration:turquoise;
+}
+#lista {background: black;
+}
+    
+.cordefundo{
+    background:red;
+}
