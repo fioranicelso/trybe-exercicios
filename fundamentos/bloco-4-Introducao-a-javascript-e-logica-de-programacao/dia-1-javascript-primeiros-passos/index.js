@@ -94,7 +94,7 @@ if (peça === "Cavalo" && move === "Movimento em L" ){
 // Porcentagem < 50 -> F
 // O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 
-let nota = -101;
+let nota = -90;
 
 if (nota<0){
     console.log("ERRO! Por favor, verifique a nota inserida")
@@ -109,8 +109,20 @@ if (nota>100){
     console.log("C")
 } else if (nota>=60){
     console.log("D")
-} else if (nota>=50){
+} else if (nota<=50){
     console.log ("E")
 } else if (nota<50 && nota>0){
     console.log ("F")
+}
+
+// Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+
+const teste = 1;
+const teste2 = 7;
+const teste3 = 10;
+
+if (teste % 2 === 0 || teste2 % 2 === 0 || teste3 % 2 === 0) {
+    console.log("True")    
+} else {
+    console.log ("False")
 }
