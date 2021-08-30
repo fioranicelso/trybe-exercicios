@@ -10,4 +10,4 @@ info.recorrente = "Sim";
 for (todosOsValores in info){
     console.log(info[todosOsValores]);
 }
-
+ 

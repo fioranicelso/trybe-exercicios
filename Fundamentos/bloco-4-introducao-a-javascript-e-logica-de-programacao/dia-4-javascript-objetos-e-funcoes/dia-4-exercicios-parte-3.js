@@ -7,4 +7,4 @@ info.recorrente = "Sim"
 
 for (mostrarChaves in info){
     console.log(mostrarChaves);
-}
+} 
