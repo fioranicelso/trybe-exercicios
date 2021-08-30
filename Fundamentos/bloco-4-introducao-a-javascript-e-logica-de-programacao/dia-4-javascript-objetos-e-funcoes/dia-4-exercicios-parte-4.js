@@ -11,4 +11,3 @@ for (todosOsValores in info){
     console.log(info[todosOsValores]);
 }
 
-
