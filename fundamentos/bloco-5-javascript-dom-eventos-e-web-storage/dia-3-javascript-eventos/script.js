@@ -40,5 +40,15 @@ numbersDaysMonth();
     createBtn.id = 'btn-holiday';
     createBtn.innerHTML = param1;
     localBtn.appendChild(createBtn)
+    
+    function backGroundColorHoliday () {
+      let diasFeriado = document.querySelectorAll('.holiday');
+      for (let index = 0; index < diasFeriado.length; index+= 1) {
+        diasFeriado[index].style.backGroundColor = 'red';
+      }
+    }
+    backGroundColorHoliday();
   }
-holidayBtn('Feriados')
+holidayBtn('Feriados');
+
+  
