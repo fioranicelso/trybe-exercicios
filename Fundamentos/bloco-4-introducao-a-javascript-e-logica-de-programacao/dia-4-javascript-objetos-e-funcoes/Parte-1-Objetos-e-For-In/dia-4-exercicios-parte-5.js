@@ -27,3 +27,4 @@ console.log(info.nota,"e",info2.nota);
 console.log(recorrentes)
 
 
+ 
